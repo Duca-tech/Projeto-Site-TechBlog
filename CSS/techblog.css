@@ -1,0 +1,165 @@
+/*
+limpar formatações padrões...
+asterisco quer dizer tudo
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: white;
+}
+
+
+/*
+****Layout****
+*/
+
+#cabecalho{
+	background: orange;
+	text-align: center;
+
+}
+
+#logo{
+padding: 10px;
+
+
+
+}
+
+#menu{
+	padding: 10px;
+}
+
+#principal{
+	
+	width: 920px;
+	margin: 0 auto; /* 0 para margins superiores e inferiores e automatico para margens laterais, deixando-as centralizadas */
+}
+
+#postagens{
+	width: 660px;
+	float: left;
+
+
+}
+#menu-lateral{
+
+	width: 240px;
+	float: right;
+	
+	padding-top: 20px;
+
+}
+#rodape{
+	background: #CCC;
+	padding: 15px;
+	clear: both;
+	text-align: center;
+
+
+
+}
+
+
+
+/*
+*** Formatação do menu ***
+*/
+
+ #postagens a:link,   #postagens a:visited{ /*formata apenas os link dos id(s) selecionados*/
+	color: #f7b600;
+	text-decoration: none;
+	
+	
+
+}
+ #postagens a:hover{
+	text-decoration: underline;
+	background: blue;
+
+}
+#cabecalho a:link, #cabecalho a:visited{ /*formata apenas os link dos id(s) selecionados*/
+	color: white;
+	padding:8px 12px;
+	text-decoration: none;
+
+	
+	
+
+}
+ #cabecalho a:hover{
+	color:orange;
+	background: white;
+	text-decoration: none;
+
+}
+
+
+/*
+*** Formatações em geral ***
+*/
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+h2{
+	color: #f7b600;
+
+}
+h3{
+	
+	background: #CCC;
+	padding-right: 30px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+
+.branco{
+	color: white;
+}
+.postagem{
+	
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+	border: 1px solid green;
+}
+.data{
+	font-size: 0.8em;
+	border-bottom: 1 px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block; /* por conta do display que conseguiu o espaçamento */
+}
+
+.conteudo-lateral{
+
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+
+
+
+}
+
+.postagem-lateral{
+
+	font-size: 0.8em;
+	padding: 10px;
+	/*border: 1px dotted #CCC; - uma maneira de fazer */
+
+
+}
+
+#menu-lateral a:link, #menu-lateral a:visited{
+	color: #f7b600 ;
+}
